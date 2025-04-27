@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white"/>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Hello World">
+  <meta name="msapplication-TileImage" content="img/hello-icon-144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="../../favicon.ico" type="../../img/x-icon" />
+  <link rel="apple-touch-icon" href="../../img/hello-icon-152.png">
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/puzzle.css">
+  <script src="../../js/jquery-1.6.2.min.js"></script>
+  <script src="../../js/jquery.crossword.js"></script>
+  <script src="../../js/easy_section_5.js"></script>
+  <title>Crossword Easy Mode Section 5</title>
+  </head>
+  <body>
+    <button class="btn btn-danger" id="backPrevious">Back</button>
+    <div class="mt-3"></div>
+    <div id="puzzle-wrapper"><!-- crossword puzzle appended here --></div>
+
+
+    <script src="../../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+      $('#backPrevious').click(() => {
+        window.history.back()
+      })
+    </script>
+  </body>
+</html>
+
+
+
+

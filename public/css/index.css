@@ -1,0 +1,5 @@
+body {
+  background: url('../img/background/crossword_background.jpg') no-repeat fixed;
+  background-position: bottom right;
+  background-size: contain;
+}
