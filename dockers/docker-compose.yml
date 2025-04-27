@@ -1,0 +1,16 @@
+version: '3'
+services:
+  pm_http:
+    image: nginx
+    container_name: todo_http
+    volumes:
+      - ../public:/usr/share/nginx/html/
+      - ./etc/nginx/certs:/etc/nginx/certs
+      - ./etc/nginx/conf.d:/etc/nginx/conf.d
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - NGINX_HOST=todo.dev
+      - NGINX_PORT=80
+

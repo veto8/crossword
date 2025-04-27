@@ -1,0 +1,17 @@
+{
+  "name": "TODO",
+  "description": "TODO",
+  "version": "1.0.0",
+  "main": "js/main.js",
+  "author": {
+    "name": "dev2",
+    "email": "dev2@body-piercing.com"
+  },
+  "homepage": "https://todo.dev",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "localforage": "^1.7.3"
+  }
+}

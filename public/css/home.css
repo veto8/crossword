@@ -1,0 +1,50 @@
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.container {
+  margin: 10% 0;
+}
+
+.text_al_center {
+  text-align: center; 
+}
+
+.txt-h1 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+ul { 
+  margin: 0 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 40%;
+}
+
+li a {
+  display: block;
+  width: 30%;
+  margin: 1rem 0;
+  padding: 30px;
+  border: 1px solid #000000; 
+}
+
+a:hover { opacity: 1; }
+
+.button1 {background-color: #4CAF50; opacity: 0.5;} /* Green */
+.button2 {background-color: #008CBA; opacity: 0.5;} /* Blue */
+.button3 {background-color: #f44336; opacity: 0.5;} /* Red */
+
+.white_color {color: #ffffff;}
